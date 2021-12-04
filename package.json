@@ -1,0 +1,28 @@
+{
+  "name": "scratch-react",
+  "version": "1.0.0",
+  "description": "Building react from scratch",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src/index.js -o build/index.bundle.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhargavAtgithub/scratch-react.git"
+  },
+  "author": "hiddenStack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhargavAtgithub/scratch-react/issues"
+  },
+  "homepage": "https://github.com/bhargavAtgithub/scratch-react#readme",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "http-server": "^14.0.0"
+  }
+}
